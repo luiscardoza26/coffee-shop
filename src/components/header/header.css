@@ -1,0 +1,38 @@
+header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../../assets/home-img.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header__container {
+    color: var(--color-bg-variant);
+    position: relative;
+    font-size: 20px;
+    user-select: none;
+}
+
+.header__container .btn-header {
+    color: var(--color-primary);
+}
+
+.header__container .btn-header:hover {
+    background: var(--color-white);
+}
+
+
+/* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 88vh;
+    }
+}
+
+/* ============================= MEDIA QUERIES (SmallDEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+}
+

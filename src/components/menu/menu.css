@@ -1,0 +1,76 @@
+.menu__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    user-select: none;
+}
+
+.menu__item {
+    background: var(--color-primary-variant);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.menu__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.menu__item-image {
+    position: relative;
+    width: 30%;
+    border-radius: 2rem;
+    overflow: hidden;
+    top: 3%;
+    left: 37%;
+    margin: -15px 0 0 -15px;
+}
+
+.menu__item h3 {
+    text-align: center;
+    margin: 1.2rem 0 2rem;
+    color: #000;
+}
+
+.menu__item h2 {
+    text-align: center;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.menu__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu__item-cta .btn-add {
+    position: relative;
+    color: #000;
+    top: 3%;
+    left: 34%;
+    margin: -15px 0 0 -15px;
+    text-align: center;
+}
+
+.menu__item-cta .btn-add:hover {
+    color: var(--color-bg-variant);
+}
+
+/* ============================= MEDIA QUERIES (MEDIUM DEVICES) ============================== */
+@media screen and (max-width: 1024px) {
+    .menu__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    } 
+}
+
+/* ============================= MEDIA QUERIES (SmallDEVICES) ============================== */
+@media screen and (max-width: 600px) {
+    .menu__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
