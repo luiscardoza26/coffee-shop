@@ -1,9 +1,9 @@
 # coffee-shop
 App Ecomerce of coffee shop whit React
 
-# Visita el sitio web en el siguiente enlace: https://coffee-shoop.netlify.app  / Prodras descargar el sitio web como una app, dando click al boton de descarga en la parte superior de la barra de busqueda, Una vez instalada podras usarla en cualquier dispositivo, y usarla sin ningún problema.
+Visita el sitio web en el siguiente enlace: https://coffee-shoop.netlify.app  / Prodras descargar el sitio web como una app, dando click al boton de descarga en la parte superior de la barra de busqueda, Una vez instalada podras usarla en cualquier dispositivo, y usarla sin ningún problema.
 
-# Sujeta a derechos propios de autor.
+Sujeta a derechos propios de autor.
 
 # Getting Started with Create React App
 
